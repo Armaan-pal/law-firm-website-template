@@ -35,9 +35,10 @@ h6 {
   
   .popup-content {
     background-color: #fff;
+    max-width: 600px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
     text-align: center;
     position: relative;
   }
@@ -56,7 +57,7 @@ h6 {
   }
 
   .hideonmob{
-    display:none;
+    display:block;
   }
 
 a {
@@ -418,6 +419,10 @@ a:focus {
     .popup-content {
         max-width: 90%;
     }
+
+    .hideonmob{
+        display:none;
+      }
 
     .carousel .carousel-caption h1 {
         font-size: 30px;
