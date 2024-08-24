@@ -20,6 +20,12 @@ h6 {
     color: #121518;
 }
 
+.footer-contact p:last-of-type{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
 .popup {
     position: fixed;
     top: 0;
@@ -126,12 +132,28 @@ a:focus {
     overflow: hidden;
 }
 
-.top-bar .logo h1 {
+.top-bar .logo h5 {
     margin: 0;
     color: #aa9166;
-    font-size: 75px;
-    line-height: 55px;
+    width: 100%;
+    /* font-size: 75px; */
+    line-height: normal;
     font-weight: 800;
+}
+
+.logo a{
+    display: flex;
+    flex-direction: row-reverse;
+    width: max-content;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+
+.cuscol{
+    flex: 0 0 25%;
+    max-width: 35%;
 }
 
 .top-bar .logo img {
@@ -156,12 +178,12 @@ a:focus {
     border-left: 1px solid rgba(255, 255, 255, .15);
 }
 
-.top-bar .text h2 {
+.top-bar .text h5 {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 25px;
+    /* font-size: 25px; */
     margin: 0;
 }
 
@@ -184,7 +206,7 @@ a:focus {
     justify-content: center;
     width: 60px;
     height: 100%;
-    font-size: 22px;
+    font-size: 19px;
     color: #ffffff;
     border-right: 1px solid rgba(255, 255, 255, .15);
 }
@@ -1693,10 +1715,32 @@ a:focus {
 /*******************************/
 /********* Footer CSS **********/
 /*******************************/
+.hlfwdth{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.shambhu{
+    width: 70%;
+}
+
+.shambhu img{
+    width: 100%;
+    height: auto;
+}
+
+.jusrght{
+    display: flex;
+    justify-content: end;
+}
+
 .footer {
     position: relative;
+    display: flex;
     margin-top: 45px;
-    padding-top: 180px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background: #121518;
     color: #ffffff;
 }
