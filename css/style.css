@@ -23,6 +23,11 @@ body {
     border-radius: 50%;
 }
 
+.floatwid a svg:first-of-type {
+    width: 36px;
+    height: 36px;
+  }
+
 .floatwid {
     display: flex;
     flex-direction: column;
